@@ -22,11 +22,20 @@ Recommendation: Launch "Weekend Tech Flash Sales" starting Friday evenings to ca
 ![Dashboard Screenshot](retail_dashboard.png)
 
 ## 📂 Project Structure
-- `task1.ipynb`
-- `retail_sales_dataset.csv`
-- `task1` (power bi file)
-## 📂 Project Structure
 - `task1.ipynb`: Cleaning, EDA, and Visualization.
 - `retail_sales_dataset.csv`: The source dataset from Kaggle.
-- `Retail_Sales_Dashboard.pbix`: Power BI file with interactive slicers.
+- `task1.pbix`: Power BI file with interactive slicers.
 - `retail_dashboard.png`: A high-resolution preview of the final report.
+
+## 🚀 How to Run the Project
+1. **Clone the Repository:**
+   `git clone https://github.com/nikita170905/Retail-Sales-Analysis.git`
+
+2. **Install Dependencies:**
+   `pip install pandas numpy matplotlib seaborn`
+
+3. **Run the Notebook:**
+   Open `task1.ipynb` in your preferred IDE and execute the cells to reproduce the cleaned dataset.
+
+4.  **View the Power BI Dashboard:**
+   Open `task1.pbix` using Power BI Desktop. Ensure the .csv file remains in the same folder as the .pbix file to maintain the data connection.
